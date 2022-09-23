@@ -1,0 +1,12 @@
+H:\Projects\AdmiralOS\AdmiralOS\bin\Debug\net6.0\AdmiralOS.deps.json
+H:\Projects\AdmiralOS\AdmiralOS\bin\Debug\net6.0\AdmiralOS.dll
+H:\Projects\AdmiralOS\AdmiralOS\bin\Debug\net6.0\AdmiralOS.pdb
+H:\Projects\AdmiralOS\AdmiralOS\obj\Debug\net6.0\AdmiralOS.csproj.AssemblyReference.cache
+H:\Projects\AdmiralOS\AdmiralOS\obj\Debug\net6.0\AdmiralOS.GeneratedMSBuildEditorConfig.editorconfig
+H:\Projects\AdmiralOS\AdmiralOS\obj\Debug\net6.0\AdmiralOS.AssemblyInfoInputs.cache
+H:\Projects\AdmiralOS\AdmiralOS\obj\Debug\net6.0\AdmiralOS.AssemblyInfo.cs
+H:\Projects\AdmiralOS\AdmiralOS\obj\Debug\net6.0\AdmiralOS.csproj.CoreCompileInputs.cache
+H:\Projects\AdmiralOS\AdmiralOS\obj\Debug\net6.0\AdmiralOS.dll
+H:\Projects\AdmiralOS\AdmiralOS\obj\Debug\net6.0\refint\AdmiralOS.dll
+H:\Projects\AdmiralOS\AdmiralOS\obj\Debug\net6.0\AdmiralOS.pdb
+H:\Projects\AdmiralOS\AdmiralOS\obj\Debug\net6.0\ref\AdmiralOS.dll
