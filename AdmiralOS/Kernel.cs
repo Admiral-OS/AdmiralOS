@@ -20,11 +20,9 @@ namespace AdmiralOS
             Console.Write("Y/N? ");
 
             string initinput;
-            string initinLow;
-            initinput = Console.ReadLine();
-            initinLow = initinput.ToLower();
+            initinput = Console.ReadLine().ToLower();
 
-            if (initinLow == "y")
+            if (initinput == "y")
             {
                 try
                 {
@@ -38,7 +36,7 @@ namespace AdmiralOS
                 }
                 
             }
-            else if (initinLow == "n")
+            else if (initinput == "n")
             {
                 Console.WriteLine("Skipping...");
                 Thread.Sleep(3000);
@@ -53,16 +51,14 @@ namespace AdmiralOS
         protected override void Run()
         {
             string input;
-            string inLow;
             Console.Write("0:\\");
-            input = Console.ReadLine();
-            inLow = input.ToLower();
+            input = Console.ReadLine().ToLower();
 
-            if (inLow == "help")
+            if (input == "help")
             {
                 Console.WriteLine("Help:");
             }
-            else if (inLow == "about")
+            else if (input == "about")
             {
                 Console.WriteLine("Admiral OS - Alpha 0.1");
                 Console.WriteLine("Copyright 2022 BritishGeekGuy");
