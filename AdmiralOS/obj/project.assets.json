@@ -535,11 +535,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Projects\\AdmiralOS\\AdmiralOS\\AdmiralOS.csproj",
+      "projectUniqueName": "D:\\AdmiralOS\\AdmiralOS\\AdmiralOS\\AdmiralOS.csproj",
       "projectName": "AdmiralOS",
-      "projectPath": "H:\\Projects\\AdmiralOS\\AdmiralOS\\AdmiralOS.csproj",
+      "projectPath": "D:\\AdmiralOS\\AdmiralOS\\AdmiralOS\\AdmiralOS.csproj",
       "packagesPath": "C:\\Users\\charl\\.nuget\\packages\\",
-      "outputPath": "H:\\Projects\\AdmiralOS\\AdmiralOS\\obj\\",
+      "outputPath": "D:\\AdmiralOS\\AdmiralOS\\AdmiralOS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\charl\\AppData\\Roaming\\NuGet\\NuGet.Config",

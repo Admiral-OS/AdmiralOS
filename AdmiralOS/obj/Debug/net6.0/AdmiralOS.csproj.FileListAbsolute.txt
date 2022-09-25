@@ -10,3 +10,15 @@ H:\Projects\AdmiralOS\AdmiralOS\obj\Debug\net6.0\AdmiralOS.dll
 H:\Projects\AdmiralOS\AdmiralOS\obj\Debug\net6.0\refint\AdmiralOS.dll
 H:\Projects\AdmiralOS\AdmiralOS\obj\Debug\net6.0\AdmiralOS.pdb
 H:\Projects\AdmiralOS\AdmiralOS\obj\Debug\net6.0\ref\AdmiralOS.dll
+D:\AdmiralOS\AdmiralOS\AdmiralOS\bin\Debug\net6.0\AdmiralOS.deps.json
+D:\AdmiralOS\AdmiralOS\AdmiralOS\bin\Debug\net6.0\AdmiralOS.dll
+D:\AdmiralOS\AdmiralOS\AdmiralOS\bin\Debug\net6.0\AdmiralOS.pdb
+D:\AdmiralOS\AdmiralOS\AdmiralOS\obj\Debug\net6.0\AdmiralOS.csproj.AssemblyReference.cache
+D:\AdmiralOS\AdmiralOS\AdmiralOS\obj\Debug\net6.0\AdmiralOS.GeneratedMSBuildEditorConfig.editorconfig
+D:\AdmiralOS\AdmiralOS\AdmiralOS\obj\Debug\net6.0\AdmiralOS.AssemblyInfoInputs.cache
+D:\AdmiralOS\AdmiralOS\AdmiralOS\obj\Debug\net6.0\AdmiralOS.AssemblyInfo.cs
+D:\AdmiralOS\AdmiralOS\AdmiralOS\obj\Debug\net6.0\AdmiralOS.csproj.CoreCompileInputs.cache
+D:\AdmiralOS\AdmiralOS\AdmiralOS\obj\Debug\net6.0\AdmiralOS.dll
+D:\AdmiralOS\AdmiralOS\AdmiralOS\obj\Debug\net6.0\refint\AdmiralOS.dll
+D:\AdmiralOS\AdmiralOS\AdmiralOS\obj\Debug\net6.0\AdmiralOS.pdb
+D:\AdmiralOS\AdmiralOS\AdmiralOS\obj\Debug\net6.0\ref\AdmiralOS.dll

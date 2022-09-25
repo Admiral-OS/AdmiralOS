@@ -5,6 +5,7 @@ using Sys = Cosmos.System;
 using Cosmos.System.FileSystem.VFS;
 using Cosmos.System.FileSystem;
 using System.Threading;
+using System.IO;
 
 namespace AdmiralOS
 {
@@ -51,18 +52,73 @@ namespace AdmiralOS
         protected override void Run()
         {
             string input;
+            string[] args;
             Console.Write("0:\\");
             input = Console.ReadLine().ToLower();
+            args = input.Split(' ');
 
-            if (input == "help")
+
+            if (args[0] == "help")
             {
                 Console.WriteLine("Help:");
+                Console.WriteLine("Commands are not CasE-sEnSiTiVe");
+                Console.WriteLine("About - Tells you about the system");
+                Console.WriteLine("Shutdown - Turns off the system (Does not work in QEMU)");
+                Console.WriteLine("Reboot - Reboots your system (Does not work in QEMU)");
+                Console.WriteLine("Dir - Shows list of files and folders");
+                Console.WriteLine("Cat - Displays content of files");
+                Console.WriteLine("Clear - Clears the screen");
             }
-            else if (input == "about")
+            else if (args[0] == "about")
             {
                 Console.WriteLine("Admiral OS - Alpha 0.1");
                 Console.WriteLine("Copyright 2022 BritishGeekGuy");
                 Console.WriteLine("This Operating System's Soruce Code is licensed under GPL-3.0");
+            }
+            else if (args[0] == "shutdown")
+            {
+                Cosmos.System.Power.Shutdown();
+            }
+            else if (args[0] == "reboot")
+            {
+                Cosmos.System.Power.Reboot();
+            }
+            else if (args[0] == "dir")
+            {
+                    try
+                    {
+                        long availableSpace = Sys.FileSystem.VFS.VFSManager.GetAvailableFreeSpace("0:\\");
+                        var directoryList = Sys.FileSystem.VFS.VFSManager.GetDirectoryListing("0:\\" + Directory.GetCurrentDirectory());
+
+                        foreach (var directoryEntry in directoryList)
+                        {
+                            Console.Write("   ");
+                            Console.WriteLine(directoryEntry.mName);
+                        }
+
+                        Console.WriteLine(availableSpace + " Bytes Free");
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine(e.ToString());
+                    }
+
+                    
+            }
+            else if (args[0] == "cat")
+            {
+                try
+                {
+                    Console.WriteLine(File.ReadAllText("0:\\" + Directory.GetCurrentDirectory() + "\\" + args[1]));
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.ToString());
+                }
+            }
+            else if (args[0] == "clear")
+            {
+                Console.Clear();
             }
             else
             {

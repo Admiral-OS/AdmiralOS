@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J/eM6At9Pm6PFo0AdcYBMXxxieWAfIzl1QN6zNb59dHKyGDF55uQSVamZE0O4xgD3BPPBbrYT7Ar+fAHq28gRw==",
+  "dgSpecHash": "kYrOrUtW+YZ2XSMBnEwg40QSmAgImkWH5d8yfG4GvbzuzoeC76Q4IGMRYlHswZERcgEubmTyYQAdai3VgrRhag==",
   "success": true,
-  "projectFilePath": "H:\\Projects\\AdmiralOS\\AdmiralOS\\AdmiralOS.csproj",
+  "projectFilePath": "D:\\AdmiralOS\\AdmiralOS\\AdmiralOS\\AdmiralOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\charl\\.nuget\\packages\\cosmos.build\\0.1.0-localbuild20220909113239\\cosmos.build.0.1.0-localbuild20220909113239.nupkg.sha512",
     "C:\\Users\\charl\\.nuget\\packages\\cosmos.common\\0.1.0-localbuild20220909113249\\cosmos.common.0.1.0-localbuild20220909113249.nupkg.sha512",
